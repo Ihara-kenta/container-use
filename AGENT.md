@@ -51,3 +51,7 @@ DO NOT install or use the git cli with the environment_run_cmd tool. All environ
 You MUST inform the user how to view your work using `container-use log <env_id>` AND `container-use checkout <env_id>`. Failure to do this will make your work inaccessible to others.
 
 <!-- container-use-rules -->
+
+MULTILINGUAL SUPPORT:
+
+Agents should be able to operate container-use even when user instructions are provided in Japanese or other non-English languages. The agent must understand and correctly interpret commands, file operations, and shell operations regardless of the language used in the conversation.
